@@ -1,0 +1,84 @@
+nav{
+    background: var(--color-primary);
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+.checkbtn {
+    display: none;
+}
+#check{
+    display: none;
+}
+nav .left-nav{
+    width: 30%;
+    padding: 2% 3% 0% 3%;
+}
+
+nav .right-nav{
+    width: 70%;
+}
+
+.right-nav li{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 3% 4%;
+    float: right;
+}
+ .right-nav a{
+    color: var(--font-color);
+ }
+
+ @media (max-width: 990px){
+    nav .left-nav{
+        width: 20%;
+        padding: 2% 3% 0% 3%;
+    }
+    nav .right-nav{
+        width: 80%;
+    }
+
+    .right-nav li{
+        padding: 3% 3%;
+    }
+}
+
+@media (max-width: 700px){
+    .checkbtn {
+        display: block;
+        font-size: 30px;
+        float: right;
+        padding: 3%;
+    }
+    ul{
+        position: fixed;
+        display: flex;
+        flex-direction: column-reverse;
+        background: linear-gradient(var(--color-primary), transparent) ;
+        top: 3rem;
+        right: -90%;
+        transition: all .5s;
+        padding-right: 2%;
+      }
+      .right-nav ul{
+        color: red
+      }
+      .right-nav ul li{
+        display: block;
+        padding: .8rem;
+        line-height: 18px;
+      }
+     
+      #check:checked ~ ul{
+        right: -1rem;
+      }
+  
+      label.logo{
+        /* color: white; */
+        /* font-size: 30px; */
+        /* line-height: 80px; */
+        /* padding: 0 10px; */
+        /* font-weight: bold; */
+      }
+  
+}
