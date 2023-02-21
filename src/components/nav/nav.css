@@ -59,6 +59,8 @@ nav .right-nav{
         right: -90%;
         transition: all .5s;
         padding-right: 2%;
+        backdrop-filter: blur(15px);
+
       }
       .right-nav ul{
         color: red

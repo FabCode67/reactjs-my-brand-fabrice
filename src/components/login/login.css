@@ -1,0 +1,46 @@
+.loginContainer{
+     border: 1px solid var(--primary-bg-color);
+     height: 15rem;
+     width: 50%;
+     border-radius: 1rem;
+     padding-left: 6rem ;
+     padding-right: 2rem ;
+     padding-top: 2rem ;
+     padding-bottom: 2rem ;
+     margin: auto;
+     align-self: center;
+     align-items: center;
+     background: var(--color-primary);
+}
+
+.login{
+    padding-top:10rem;
+    align-self: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+input{
+    align-self: center;
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1.3rem;
+    border: 2px solid var(--color-primary);
+}
+
+
+.login-button{
+    color: var(--font-color);
+    background: var(--primary-bg-color);
+    margin-top: 2rem;
+    text-align: center;
+    width: 85%;
+   cursor: pointer;
+}
+
+.login-button a{
+    font-size: 30px;
+}

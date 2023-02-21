@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './allblogs.css';
+import { Link } from 'react-router-dom'
+
 
 const Allblogs = () => {
   const [blogData, setBlogData] = useState([]);
@@ -26,9 +28,12 @@ const Allblogs = () => {
             <p dangerouslySetInnerHTML={{ __html: blog.blogContent.substring(0, 110) + '...' }}></p>
           </div>
           <div className='button'>
-            <a href={`moreblogs.html?id=${blog._id}`}>
-              <button>more</button>
-            </a>
+          {/* <Link to={`/singleBlogPage/${blog._id}`}>more</Link> */}
+          <Link to={`/singleBlogPage?id=${blog._id}`}>more</Link>
+          
+            {/* <a href={`moreblogs.html?id=${blog._id}`}> */}
+              {/* <button>more</button>
+            </a> */}
           </div>
         </div>
       ))}
