@@ -53,8 +53,9 @@ const AddComment = () => {
         onChange={handleCommentChange}
       ></textarea>
       <button type='submit'>add comment</button>
-    </form>
+    </form> 
   );
+  
 };
 
 export default AddComment;

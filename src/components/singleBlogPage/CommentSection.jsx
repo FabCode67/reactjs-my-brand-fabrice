@@ -28,6 +28,7 @@ const CommentSection = () => {
               <p dangerouslySetInnerHTML={{ __html: comment.username }}></p>
     <p dangerouslySetInnerHTML={{ __html: comment.comment }}></p></div>
 ))}
+
     </>
   )
 }

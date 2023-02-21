@@ -37,7 +37,6 @@ const MainBlog = () => {
           </div>
           <div className='sMessages'>
           <CommentSection/>
-           
 </div>
 </div>
    </>

@@ -7,7 +7,7 @@ const Nav = () => {
   return (
     <nav>
          <div className="left-nav"> 
-         <label for="" className="logo"> Fab</label>
+         <label for="" className="logo"> Fab </label>
         </div>
 
         <div className='right-nav'>

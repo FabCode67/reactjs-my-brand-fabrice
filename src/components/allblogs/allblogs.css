@@ -5,7 +5,6 @@
     grid-template-columns: repeat(3,1fr);
 }
 
-
 .blogs-container{
     display: flex;
     flex-direction: column;
