@@ -1,0 +1,158 @@
+.singlePage{
+    /* background-color: #ff0000; */
+    padding-top:5.5rem;
+    width: 100%;
+    height: auto;
+}
+
+.blogContainer{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    padding-top: 0;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    height: auto;
+}
+
+.LB p{
+    color: var(--font-color);
+    text-decoration: underline;
+}
+.blogContainer>div{
+    height: auto;
+
+    /* background-color: rgb(56, 7, 85); */
+    /* height: 70rem; */
+}
+
+
+
+
+            /* LEFT BLOG CONFIG */
+.blogContainer .leftBlog{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 65%;
+    height: auto;
+
+}
+
+/* .leftBlog>div{
+    flex-basis: 100%;
+    background-color: blue;
+    margin: 1rem;
+} */
+
+.sImage{
+    /* background-color: crimson; */
+    flex-basis: 50%;
+
+}
+
+.sContent{
+    /* background-color: rgb(20, 220, 37); */
+    flex-basis: 50%;
+    max-height: fit-content;
+    height: auto;
+    padding: .5rem;
+}
+.sComment{
+    /* background-color: rgb(83, 95, 84); */
+    flex-basis: 10%;
+    height: auto;
+    padding: 1rem;
+}
+.sComment button{
+    margin-right: 4%;
+}
+
+.sMessages{
+    /* background-color: rgb(95, 83, 83); */
+    flex-basis: 20%;
+    height: auto;
+    padding: .2rem;
+
+}
+.dispMessge{
+    /* background-color: rgb(30, 49, 49); */
+    height: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border: 1px solid var(--primary-bg-color);
+    border-radius: .5rem;
+
+}
+
+.sMessages p{
+    padding: 0.5rem;
+
+}
+
+textarea{
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    width: 90%;
+    height: 2rem;
+    /* border: 1px solid yellow; */
+}
+
+
+
+     /* RIGHT BLOG CONFIG */
+.blogContainer .rightBlog{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex-basis: 32%;
+}
+
+.rightBlog>div{
+    display: flex;
+    flex-basis: 5%;
+    /* background-color: darkkhaki; */
+    margin-top: 1rem;
+}
+
+ .lPhoto{
+    /* background-color: #ff0000; */
+    flex-basis: 40%;
+}
+
+.lContent{
+    /* background-color: #292727; */
+    flex-basis: 60%;
+    padding: 1rem;
+}
+
+@media (max-width: 1115px){
+    .blogContainer{
+        /* background-color: aquamarine; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-basis: 100%;
+        padding-top: 0;
+        padding-right: 3rem;
+        padding-left: 3rem;
+        height: auto;
+    }
+}
+
+@media (max-width: 1115px){
+    
+    .blogContainer{
+        /* background-color: aquamarine; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-basis: 100%;
+        padding-top: 0;
+        padding-right: .2rem;
+        padding-left: .2rem;
+        height: auto;
+    }
+}
+
